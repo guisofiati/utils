@@ -1,0 +1,22 @@
+* {
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.ball {
+  height: 30px;
+  width: 30px;
+  background-color: #8b80f9;
+  border-radius: 50%;
+  animation: boucing-ball 1.5s infinite;
+}
+
+@keyframes boucing-ball {
+  0% {
+    box-shadow: #8b80f9 0 0 0 0;
+  }
+  100% {
+    box-shadow: #8b80f900 0 0 0 16px;
+  }
+}
